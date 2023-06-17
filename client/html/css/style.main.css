@@ -1,0 +1,136 @@
+* {
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+#form {
+	position: absolute;
+	top: 10vh;
+	left: 5vh;
+	width: 260px;
+	background-color: #1F1F1F;
+	/* padding: 20px; */
+	color: white;
+	/* border-radius: 10px; */
+	width: 30vh;
+	padding: 1vh;
+	height: 61vh;
+}
+
+#form div {
+	/* margin-bottom: 5px; */
+}
+
+#form input, select, textarea {
+	border: 1px solid white;
+	border-radius: 3px;
+	resize: none;
+	height: 14px;
+	margin: 0px 2px 4px 0px;
+	height: 20px;
+	font-size: 15px;
+}
+
+textarea {
+	height: 30px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.floating {
+	float: left;
+}
+
+.spacer {
+	height: 15px;
+}
+
+.positioning-field {
+	width: 16%;
+}
+
+.title.main-title {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 30px;
+    border-radius: 0px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #008736;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+}
+
+.tab {
+    width: 48%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tab-active {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top: 1px solid #008736;
+	border-left: 1px solid #008736;
+	border-right: 1px solid #008736;
+	font-size: 20px;
+}
+
+.tab-content {
+	height: 599px;
+}
+
+.slider {
+	margin: 0px;
+	width: 82%;
+	-webkit-appearance: none; 
+	border-radius: 5px;  
+	margin-bottom: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 50%; 
+	width: 15px;
+	height: 15px;
+	background: rgb(82, 163, 82);
+	cursor: pointer; 
+}
+
+.title {
+	font-weight: bold;
+	font-size: 13px;
+	/* border-bottom: 1px solid white; */
+	/* margin-top: 5px; */
+	background: #008736;
+	/* padding: 5px; */
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 4px;
+	border-radius: 8px;
+}
+
+.button {
+	background-color: #2D2D2D;
+	text-align: center;
+	margin-top: 10px;
+	height: 20px;
+	border-radius: 2px;
+	margin-top: 10px;
+	line-height: 20px;
+	font-size: 14px;
+}
